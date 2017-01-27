@@ -1,0 +1,5 @@
+msbuild.exe C:\Users\Nouman\Desktop\Project\WebApplication1\WebApplication1.sln /p:DeployOnBuild=true /p:PublishProfile=january /p:Configuration=release /p:Platform="Any CPU"
+
+---- Altered
+
+msbuild.exe C:\Users\Nouman\Desktop\Project\WebApplication1\WebApplication1.sln /p:DeployOnBuild=true /p:PublishProfile=january /p:Configuration=release /p:Platform="Any CPU" /p:publishUrl=d:\outuput
